@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>QR Surprises // QR Mariana</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  ">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Oswald|Inconsolata|Playfair+Display">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="logica/logica.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body onload="sendNotification()">
+    <script>
+    </script>
+    <section id="home" class="bgimg1 w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-middle box-center contMain">
+            <h1 class="w3-jumbo w3-animate-top titleMain">¡WEYYYY 💛!</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:30vh">
+            <p class="w3-large w3-center  w3-animate-top">
+                <span class="description">No creo que está invitación necesite
+                    destinatario, ni que nuestra cita tenga una <span class="zoomAnimation1">locación especial</span>
+                    con solo tu compañía la noche es <span class="zoomAnimation2">mágica</span>.
+                </span>
+            </p>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large" style="top: 90%; left: 48%;">
+            <a href="#preSoy" class="fa fa-angle-down fa-3x iconDown" aria-hidden="true"></a>
+        </div>
+    </section>
+    <section id="preSoy" class="bgimg2 w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-middle box-center contMain">
+            <p class="w3-large w3-center">
+                <span class="description">Quiero que tengas tan presente como yo, esta tan esperada salida entre los
+                    dos, por eso te dejo aquí en recordatorio.
+                </span>
+            </p>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+            <p class="w3-large w3-center description">
+                <mark class="withoutShadow">RESTA: </mark> <span id="days"></span> <span
+                    class="zoomAnimation1">día</span>, <span id="hours"></span> <span
+                    class="zoomAnimation2">horas</span>,
+                <span id="minutes"></span>
+                <span class="zoomAnimation3">minutos</span> y
+                <span id="seconds"></span> <span class="zoomAnimation4">segundos</span>
+            </p>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large" style="top: 90%; left: 48%;">
+            <a href="#quienSoy" class="fa fa-angle-down fa-3x iconDown" aria-hidden="true"></a>
+        </div>
+    </section>
+    <section id="quienSoy" class="bgimg3 w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-middle box-center contMain">
+            <p class="w3-large w3-center">
+                <span class="description">SI AÚN NO SABES <span class="zoomAnimation1"> QUIÉN SOY
+                    </span> DESCUBRELO <span class="zoomAnimation2"> AHORA </span> DANDO CLICK ACÁ 👇🏻
+                </span>
+                </span>
+            </p>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+            <p class="w3-large w3-center  w3-animate-top"><span class="description withoutShadow">
+                </span><br><a href="https://api.whatsapp.com/send?phone=573013918856&text=%F0%9F%92%9B"
+                    id="btnSendWhatsapp" title="Follow us!"
+                    class="buttonBasic boxShadow  w3-animate-top description"><span
+                        class="withoutShadow">&nbsp;#ComingSoon 🔜</span></a></p>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large" style="top: 90%; left: 48%;">
+            <a href="#home" class="fa fa-angle-up fa-3x iconUp" aria-hidden="true"></a>
+        </div>
+    </section>
+</body>
+
+</html>

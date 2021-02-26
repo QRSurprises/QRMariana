@@ -1,0 +1,434 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+body,
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-shadow: -3px 3px 6px rgba(0, 0, 0, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p {
+    font-family: "Inconsolata", sans-serif;
+}
+
+section[class^='bgimg'] {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+body,
+html {
+    height: 100%
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.static {
+    position: fixed;
+    z-index: 9999;
+    margin: 10px 0 0 20px;
+    color: white;
+}
+
+div#menu.static {
+    display: grid;
+    height: auto;
+    background-color: rgba(234, 233, 233, 0.2);
+    right: 0;
+    top: 30%;
+    z-index: 9999;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 8px 0 0 8px;
+}
+
+div#menu.static a {
+    padding: 10px;
+}
+
+section#queSe img {}
+
+section#queSe img:hover {
+    animation: .5s animacion infinite;
+}
+
+.buttonBasic {
+    border-radius: 5px;
+    padding: 10px 17px;
+    line-height: 19px;
+    height: 19px;
+    box-sizing: content-box;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    display: inline-block;
+    background-color: rgba(234, 233, 233, 0.5)
+}
+
+.itemMenu {}
+
+.bgimg1 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(../images/index.JPG);
+}
+
+.bgimg2 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(../images/section2.JPG);
+}
+
+.bgimg3 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(../images/section3.JPG);
+}
+
+.iphoneBack {
+    width: 30%;
+    margin: 10px;
+}
+
+#capturaInicioApp {
+    position: absolute;
+    height: 57%;
+    top: 30%;
+    left: 20.5%;
+}
+
+#capturaProximoPartido {
+    position: absolute;
+    height: 57%;
+    top: 30%;
+    left: 53%;
+}
+
+div[id^='contenedor'] {
+    display: none;
+}
+
+#contenedor1 {
+    display: block;
+}
+
+section#productoEstrella div.w3-display-middle preOrNext {
+    cursor: pointer;
+}
+
+.iconRight {
+    position: absolute;
+    top: 55%;
+    right: 11%;
+}
+
+.iconLeft {
+    position: absolute;
+    top: 55%;
+    left: 11%;
+}
+
+.maquinaEscribir {
+    position: relative;
+    float: left;
+    /*background: tomato;*/
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.maquinaEscribir span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    /*background: tomato;    */
+    animation: escribir 3s steps(30) alternate;
+}
+
+.iconUp,
+.iconDown {
+    transition: .3s;
+}
+
+.iconUp:hover,
+.iconDown:hover {
+    animation: .5s animacion infinite;
+}
+
+.sweet-alert {
+    text-shadow: none !important;
+}
+
+.box-center {
+    text-align: center;
+}
+
+.withoutShadow {
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.contMain {
+    width: 95%;
+}
+
+.boxShadow {
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, .2);
+
+}
+
+#btnSendWhatsapp {
+    margin-top: 5px;
+}
+
+.imgLogoMain {
+    width: 20vh;
+}
+
+div.contMain .description {
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+}
+
+div.contMain .titleMain {
+    animation-iteration-count: infinite;
+    animation-name: rotateTitleMain;
+    animation-duration: 1s;
+}
+
+span.zoomAnimation1 {
+    display: inline-block;
+    animation-iteration-count: infinite;
+    animation-name: zoom1;
+    animation-duration: 5s;
+}
+
+span.zoomAnimation2 {
+    display: inline-block;
+    animation-iteration-count: infinite;
+    animation-name: zoom2;
+    animation-duration: 5s;
+}
+
+span.zoomAnimation3 {
+    display: inline-block;
+    animation-iteration-count: infinite;
+    animation-name: zoom3;
+    animation-duration: 5s;
+}
+
+span.zoomAnimation4 {
+    display: inline-block;
+    animation-iteration-count: infinite;
+    animation-name: zoom4;
+    animation-duration: 5s;
+}
+
+
+@keyframes rotateTitleMain {
+    0% {
+        transform: scale(1.5);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg)
+    }
+
+    75% {
+        transform: rotate(5deg)
+    }
+
+    100% {
+        transform: rotate(-5deg)
+    }
+}
+
+@keyframes zoom1 {
+
+    25% {
+        transform: scale(1.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes zoom2 {
+
+    25% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+@keyframes zoom3 {
+
+    25% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes zoom4 {
+
+    25% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+/*Responsive desing para dispositivos móviles */
+
+@media screen and (max-width: 650px) {
+
+
+    /*Correr botones de down y up */
+    div.w3-display-bottomleft {
+        left: 41% !important;
+    }
+
+    /*Cambiar tamaño del titulo principal*/
+    section#home h1 {
+        text-align: center;
+        font-size: 14vw !important;
+    }
+
+    section#quienSoy h1 {
+        font-size: 30px !important;
+    }
+
+    section#queSe h1 {
+        font-size: 40px !important;
+    }
+
+    section#queSe p {
+        height: 490px;
+        overflow: scroll;
+    }
+
+    section#portafolio h1 {
+        font-size: 32px !important;
+    }
+
+    /*Cambiar tamaño del titulo del index principal del APP*/
+    section#productoEstrella .iphoneBack {
+        width: 55%;
+    }
+
+    section#productoEstrella #capturaInicioApp {
+        height: 26% !important;
+        top: 27% !important;
+        left: 26% !important;
+    }
+
+    section#productoEstrella #capturaProximoPartido {
+        height: 26% !important;
+        top: 65% !important;
+        left: 49px !important;
+    }
+
+    section#productoEstrella div.w3-display-middle preOrNext {
+        margin: -20px;
+    }
+
+
+    /*INCIO RESPONSIVE DESING INICIOAPP*/
+    /*Cambiar tamaño de todos los titulos de incioApp*/
+    section[id^='inicioApp'] h1 {
+        text-align: center;
+        font-size: 60px !important;
+    }
+
+    /*Cambiar tamaño de todas las descripciones del inicioApp*/
+    section[id^='inicioApp'] p {
+        font-size: 20px !important;
+    }
+
+    /*FIN RESPOSIVE DESING INICIOAPP*/
+    /*INCIO RESPONSIVE DESING PROXIMOPARTIDO*/
+    section[id^='proximoPartido'] h1 {
+        text-align: center;
+        font-size: 60px !important;
+    }
+
+    /*Cambiar tamaño de todas las descripciones del inicioApp*/
+    section[id^='proximoPartido'] p {
+        font-size: 20px !important;
+    }
+
+    /*FIN RESPOSIVE DESING PROXIMOPARTIDO*/
+    /*INCIO RESPONSIVE DESING RESULTADO*/
+    section[id^='resultado'] h1,
+    section[id^='tablaPosiciones'] h1 {
+        text-align: center;
+        font-size: 60px !important;
+    }
+
+    /*Cambiar tamaño de todas las descripciones del inicioApp*/
+    section[id^='resultado'] p,
+    section[id^='tablaPosiciones'] p {
+        font-size: 20px !important;
+    }
+
+    /*FIN RESPOSIVE DESING RESULTADO*/
+}
