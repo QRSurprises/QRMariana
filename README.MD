@@ -1,6 +1,6 @@
-# QR_SURPRISES - QR_Patri 🟡
+# QR_SURPRISES - QR_Mariana 🟡
 
-Proyect from Patri by [@QR_Surprises](https://instagram.com/QR_Surprises) ⚠️.
+Proyect from Mariana by [@QR_Surprises](https://instagram.com/QR_Surprises) ⚠️.
 
 By [Simón Bustamante Alzate](https://instagram.com/simonba97)
 
