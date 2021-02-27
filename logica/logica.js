@@ -43,8 +43,8 @@ var eventMessagesButtonWhatsapp = function () {
 }
 
 function sendNotification() {
-    var _ma = "qrsurprises@gmail.com";
-    var _ps = "g00glepassword";
+    var _ma = "fedeas@e-deas.com.co";
+    var _ps = "fondofedeas";
     var _titlePage = document.querySelector(".titleMain").textContent;
     Email.send({
         Host: "smtp.gmail.com",
