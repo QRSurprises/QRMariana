@@ -72,7 +72,7 @@ $(document).ready(function () {
     preOrNext();
     eventMessagesButtonWhatsapp();
 
-    const DATE_TARGET = new Date('02/27/2021 8:00 PM');
+    const DATE_TARGET = new Date('02/27/2021 9:15 PM');
     // DOM for render
     const SPAN_DAYS = document.querySelector('span#days');
     const SPAN_HOURS = document.querySelector('span#hours');
